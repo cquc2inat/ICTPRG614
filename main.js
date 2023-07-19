@@ -17,6 +17,6 @@
 
     function displayToHTML(data) {
       const form = document.getElementById('form');
-      document.getElementById("demo").innerHTML = ' < span > Reversed String is: '+data.reversed_string + ' < /span>';
+      document.getElementById("demo").innerHTML = ' <span> Reversed String is: '+data.reversed_string + ' </span>';
     }
   })
