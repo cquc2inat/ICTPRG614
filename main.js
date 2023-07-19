@@ -5,7 +5,7 @@
     const formData = new FormData(form);
     const formDataObject = Object.fromEntries(formData.entries());
     // Post the payload using Fetch:
-    fetch('<Invoke URL>', {
+    fetch('https://show.ratufa.io/json', {
       method: 'POST',
       body: JSON.stringify(formDataObject)
     }).then(res => res.json()).then(data => {
